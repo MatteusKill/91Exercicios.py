@@ -1,0 +1,12 @@
+nomeUsuario = str(input("Digite o seu nome: "))
+idadeUsuario = int(input("Digite a sua idade: "))
+sexoUsuario = input("Digite o seu sexo em M/S: ")
+enderecoUsuario = input("Digite o seu endereco: ")
+telefoneUsuario = int(input("Digite o seu numero de telefone: "))
+
+print('\n')
+print(f'Nome: {nomeUsuario}')
+print(f'idade: {idadeUsuario}')
+print(f'Sexo: {sexoUsuario}')
+print(f'Endereco: {enderecoUsuario}')
+print(f'Telefone: {telefoneUsuario}')

@@ -1,0 +1,12 @@
+nomeAluno = input("Digite o nome do aluno: ")
+primeiroBimestre = float(input("Digite a nota do primeiro bimestre: "))
+segundoBimestre = float(input("Digite a nota do segundo bimestre: "))
+terceiroBimestre = float(input("Digite a nota do terceiro bimestre: "))
+quartoBimestre = float(input("Digite a nota do quarto bimestre: "))
+
+print('\n')
+print(f"Nome do aluno: {nomeAluno}")
+print(f"Nota do primeiro bimestre: {primeiroBimestre}")
+print(f"Nota do segundo bimestre: {segundoBimestre}")
+print(f"Nota do terceiro bimestre: {terceiroBimestre}")
+print("Nota do quarto bimestre: {}".format(quartoBimestre))
