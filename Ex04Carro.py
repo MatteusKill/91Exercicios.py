@@ -1,1 +1,10 @@
+nomeCarro = input("Digite o nome do carro: ")
+placaCarro = input ("Digite a placa do carro: ")
+modeloCarro = input("Digite o modelo do carro: ")
+corCarro = input("Digite a cor do carro: ")
 
+print("\n")
+print(f"Nome do carro: {nomeCarro}.")
+print("Placa do carro: {}.".format (placaCarro))
+print("Modelo do carro: {}.".format (modeloCarro))
+print("Cor do carro: {}.".format (corCarro))
